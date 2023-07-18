@@ -67,4 +67,6 @@ plt.legend()
 plt.grid()
 plt.title(f'Newton-Raphson Method, number of steps = {n_stepsNR}')
 
+plt.savefig("zero_functions.png")
+
 plt.show()
